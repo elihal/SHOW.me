@@ -30,8 +30,14 @@ input[type=submit]:hover {
 body {
     border-radius: 5px;
     background-color: lightblue;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-right: 500px;
     padding-bottom: 200px;
     padding-left: 500px;
+    font-family: "verdana";
+}
+
+.idea {
+    font-size: 40px;
+    text-align: center;
 }
