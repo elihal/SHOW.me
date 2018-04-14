@@ -1,16 +1,31 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Sendout Mailgun Signup</title>
+		<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+			<title>Show.Me - Submit your idea!</title>
 	</head> 
 	<body>
-		<p>Let's keep in touch!</p>
+		<p>Submit an idea!</p>
 		<div id="contact-form">
 			<form method="post" action="/signup">
 				<label for="name">Name:</label>
 				<input type="name" name="name" required="required">
+
 				<label for="email">Email address:</label>
 				<input type="email" id="email" name="email" required="required">
+
+				<label for="title">Title:</label>
+				<input type="title" name="title" required="required">
+
+				<label for="genre">Genre:</label>
+				<input type="genre" name="genre" required="required">
+
+				<label for="topline">Topline:</label>
+				<input type="topline" name="topline" required="required">
+
+				<label for="summary">Summary:</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
 				<input type="submit" value="Submit" id="submit-button"> 
 			</form>
 		</div>

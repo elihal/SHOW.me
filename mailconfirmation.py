@@ -22,9 +22,18 @@ def sign_up():
 	form_data = request.form
 	name = form_data["name"]
 	email = form_data["email"]
+	title = form_data["title"]
+	genre = form_data["genre"]
+	topline = form_data["topline"]
+	summary = form_data["summary"]
+	}
 
 	print name
 	print email
+	print title
+	print genre
+	print topline
+	print summary
 
 	send_simple_message("Hello {}".format(name), email)
 
