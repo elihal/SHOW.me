@@ -1,3 +1,8 @@
+/* top header formatting */
+.navbar-header {
+    background-color: transparent;
+    color: white;
+}
 /* Style inputs with type="text", select elements and textareas */
 input, select, textarea {
     width: 100%; /* Full width */
@@ -40,4 +45,38 @@ body {
 .idea {
     font-size: 40px;
     text-align: center;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    margin-bottom: 100px;
+
+}
+
+/* Social media navbar formatting below */
+.navbar-light {
+    background-color: transparent;
+    color: white;
+    align-content: center;
+    border: transparent;
+    font-size: 50px; 
+}
+.fa-facebook {
+  background: transparent;
+  color: #3B5998;
+  size: 40px;
+
+}
+
+.fa-twitter {
+  background: transparent;
+  color: #55ACEE;
+  size: 40px;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: #125688;
+  size: 40px;
 }
