@@ -3,6 +3,9 @@
     background-color: transparent;
     color: white;
 }
+
+
+
 /* Style inputs with type="text", select elements and textareas */
 input, select, textarea {
     width: 100%; /* Full width */
@@ -34,7 +37,7 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 body {
     border-radius: 5px;
-    background-color: lightblue;
+    background-image: url(../static/images/background.jpeg);
     padding-top: 50px;
     padding-right: 500px;
     padding-bottom: 200px;
